@@ -1,0 +1,640 @@
+{
+  "schedules": [
+    {
+      "key": "in-uip",
+      "name": "India - Universal Immunisation Programme (UIP)",
+      "country": "India",
+      "version": "2026.1 (VaxTrack simplified edition)",
+      "source": "Ministry of Health and Family Welfare, Government of India - Universal Immunization Programme",
+      "source_url": "https://www.mohfw.gov.in/sites/default/files/Universal%20Immunization%20Programme.pdf",
+      "date_order": "DMY",
+      "description": "Simplified from public MoHFW material for children and adolescents. Regional additions and recent changes may be missing, and private paediatric (IAP) schedules differ.",
+      "rules": [
+        {
+          "vaccine": "bcg",
+          "dose": 1,
+          "age": {
+            "min": 0,
+            "max": 12,
+            "unit": "months"
+          },
+          "label": "BCG",
+          "notes": "At birth or as early as possible in the first year."
+        },
+        {
+          "vaccine": "hepb",
+          "dose": 1,
+          "age": {
+            "min": 0,
+            "max": 1,
+            "unit": "weeks"
+          },
+          "label": "Hepatitis B birth dose",
+          "notes": "Ideally within 24 hours of birth."
+        },
+        {
+          "vaccine": "opv",
+          "dose": 0,
+          "age": {
+            "min": 0,
+            "max": 15,
+            "unit": "days"
+          },
+          "label": "OPV-0 (birth dose)",
+          "notes": "Within the first 15 days."
+        },
+        {
+          "vaccine": "opv",
+          "dose": 1,
+          "age": {
+            "min": 6,
+            "max": 10,
+            "unit": "weeks"
+          },
+          "label": "OPV-1"
+        },
+        {
+          "vaccine": "opv",
+          "dose": 2,
+          "age": {
+            "min": 10,
+            "max": 14,
+            "unit": "weeks"
+          },
+          "min_interval": {
+            "after_dose": 1,
+            "value": 4,
+            "unit": "weeks"
+          },
+          "label": "OPV-2"
+        },
+        {
+          "vaccine": "opv",
+          "dose": 3,
+          "age": {
+            "min": 14,
+            "min_unit": "weeks",
+            "max": 12,
+            "max_unit": "months"
+          },
+          "min_interval": {
+            "after_dose": 2,
+            "value": 4,
+            "unit": "weeks"
+          },
+          "label": "OPV-3"
+        },
+        {
+          "vaccine": "opv",
+          "dose": 4,
+          "age": {
+            "min": 16,
+            "max": 24,
+            "unit": "months"
+          },
+          "label": "OPV booster"
+        },
+        {
+          "vaccine": "penta",
+          "dose": 1,
+          "age": {
+            "min": 6,
+            "max": 10,
+            "unit": "weeks"
+          },
+          "label": "Pentavalent-1"
+        },
+        {
+          "vaccine": "penta",
+          "dose": 2,
+          "age": {
+            "min": 10,
+            "max": 14,
+            "unit": "weeks"
+          },
+          "min_interval": {
+            "after_dose": 1,
+            "value": 4,
+            "unit": "weeks"
+          },
+          "label": "Pentavalent-2"
+        },
+        {
+          "vaccine": "penta",
+          "dose": 3,
+          "age": {
+            "min": 14,
+            "min_unit": "weeks",
+            "max": 12,
+            "max_unit": "months"
+          },
+          "min_interval": {
+            "after_dose": 2,
+            "value": 4,
+            "unit": "weeks"
+          },
+          "label": "Pentavalent-3",
+          "notes": "Aim to complete before the first birthday."
+        },
+        {
+          "vaccine": "rotavirus",
+          "dose": 1,
+          "age": {
+            "min": 6,
+            "max": 10,
+            "unit": "weeks"
+          },
+          "label": "Rotavirus-1"
+        },
+        {
+          "vaccine": "rotavirus",
+          "dose": 2,
+          "age": {
+            "min": 10,
+            "max": 14,
+            "unit": "weeks"
+          },
+          "min_interval": {
+            "after_dose": 1,
+            "value": 4,
+            "unit": "weeks"
+          },
+          "label": "Rotavirus-2"
+        },
+        {
+          "vaccine": "rotavirus",
+          "dose": 3,
+          "age": {
+            "min": 14,
+            "min_unit": "weeks",
+            "max": 12,
+            "max_unit": "months"
+          },
+          "min_interval": {
+            "after_dose": 2,
+            "value": 4,
+            "unit": "weeks"
+          },
+          "label": "Rotavirus-3",
+          "notes": "Rotavirus vaccine has an upper age limit."
+        },
+        {
+          "vaccine": "ipv",
+          "dose": 1,
+          "age": {
+            "min": 6,
+            "max": 10,
+            "unit": "weeks"
+          },
+          "label": "fIPV-1",
+          "notes": "Fractional dose given into the skin."
+        },
+        {
+          "vaccine": "ipv",
+          "dose": 2,
+          "age": {
+            "min": 14,
+            "min_unit": "weeks",
+            "max": 12,
+            "max_unit": "months"
+          },
+          "min_interval": {
+            "after_dose": 1,
+            "value": 4,
+            "unit": "weeks"
+          },
+          "label": "fIPV-2"
+        },
+        {
+          "vaccine": "pcv",
+          "dose": 1,
+          "age": {
+            "min": 6,
+            "max": 10,
+            "unit": "weeks"
+          },
+          "label": "PCV-1"
+        },
+        {
+          "vaccine": "pcv",
+          "dose": 2,
+          "age": {
+            "min": 14,
+            "max": 26,
+            "unit": "weeks"
+          },
+          "min_interval": {
+            "after_dose": 1,
+            "value": 4,
+            "unit": "weeks"
+          },
+          "label": "PCV-2"
+        },
+        {
+          "vaccine": "pcv",
+          "dose": 3,
+          "age": {
+            "min": 9,
+            "max": 15,
+            "unit": "months"
+          },
+          "label": "PCV booster"
+        },
+        {
+          "vaccine": "mr",
+          "dose": 1,
+          "age": {
+            "min": 9,
+            "max": 12,
+            "unit": "months"
+          },
+          "label": "MR-1"
+        },
+        {
+          "vaccine": "mr",
+          "dose": 2,
+          "age": {
+            "min": 16,
+            "max": 24,
+            "unit": "months"
+          },
+          "min_interval": {
+            "after_dose": 1,
+            "value": 4,
+            "unit": "weeks"
+          },
+          "label": "MR-2"
+        },
+        {
+          "vaccine": "je",
+          "dose": 1,
+          "age": {
+            "min": 9,
+            "max": 12,
+            "unit": "months"
+          },
+          "label": "JE-1",
+          "notes": "Only in districts where Japanese encephalitis is common.",
+          "conditional": true
+        },
+        {
+          "vaccine": "je",
+          "dose": 2,
+          "age": {
+            "min": 16,
+            "max": 24,
+            "unit": "months"
+          },
+          "min_interval": {
+            "after_dose": 1,
+            "value": 4,
+            "unit": "weeks"
+          },
+          "label": "JE-2",
+          "notes": "Only in districts where Japanese encephalitis is common.",
+          "conditional": true
+        },
+        {
+          "vaccine": "dtp",
+          "dose": 4,
+          "age": {
+            "min": 16,
+            "max": 24,
+            "unit": "months"
+          },
+          "label": "DPT booster-1"
+        },
+        {
+          "vaccine": "dtp",
+          "dose": 5,
+          "age": {
+            "min": 5,
+            "max": 6,
+            "unit": "years"
+          },
+          "label": "DPT booster-2"
+        },
+        {
+          "vaccine": "td",
+          "dose": 1,
+          "age": {
+            "min": 10,
+            "max": 15,
+            "unit": "years"
+          },
+          "label": "Td at 10 years",
+          "notes": "Td replaced TT in the national schedule."
+        },
+        {
+          "vaccine": "td",
+          "dose": 2,
+          "age": {
+            "min": 16,
+            "max": 19,
+            "unit": "years"
+          },
+          "min_interval": {
+            "after_dose": 1,
+            "value": 4,
+            "unit": "weeks"
+          },
+          "label": "Td at 16 years"
+        }
+      ]
+    },
+    {
+      "key": "who-routine",
+      "name": "WHO - Routine immunization (global summary)",
+      "country": "International (WHO)",
+      "version": "2026.1 (based on WHO Table 1, December 2025, simplified)",
+      "source": "World Health Organization - Summary tables of WHO recommendations for routine immunization",
+      "source_url": "https://www.who.int/teams/immunization-vaccines-and-biologicals/policies/who-recommendations-for-routine-immunization---summary-tables",
+      "date_order": "DMY",
+      "description": "A simplified global reference. WHO states that national programmes set the actual schedules, which differ by country.",
+      "rules": [
+        {
+          "vaccine": "bcg",
+          "dose": 1,
+          "age": {
+            "min": 0,
+            "max": 12,
+            "unit": "months"
+          },
+          "label": "BCG",
+          "notes": "Recommended where tuberculosis is common."
+        },
+        {
+          "vaccine": "hepb",
+          "dose": 1,
+          "age": {
+            "min": 0,
+            "max": 1,
+            "unit": "weeks"
+          },
+          "label": "Hepatitis B birth dose",
+          "notes": "Within 24 hours of birth."
+        },
+        {
+          "vaccine": "hepb",
+          "dose": 2,
+          "age": {
+            "min": 6,
+            "max": 10,
+            "unit": "weeks"
+          },
+          "min_interval": {
+            "after_dose": 1,
+            "value": 4,
+            "unit": "weeks"
+          },
+          "label": "Hepatitis B dose 2",
+          "notes": "Programmes use 3 or 4 doses in total."
+        },
+        {
+          "vaccine": "hepb",
+          "dose": 3,
+          "age": {
+            "min": 14,
+            "min_unit": "weeks",
+            "max": 12,
+            "max_unit": "months"
+          },
+          "min_interval": {
+            "after_dose": 2,
+            "value": 4,
+            "unit": "weeks"
+          },
+          "label": "Hepatitis B dose 3"
+        },
+        {
+          "vaccine": "dtp",
+          "dose": 1,
+          "age": {
+            "min": 6,
+            "max": 10,
+            "unit": "weeks"
+          },
+          "label": "DTP-containing vaccine dose 1"
+        },
+        {
+          "vaccine": "dtp",
+          "dose": 2,
+          "age": {
+            "min": 10,
+            "max": 14,
+            "unit": "weeks"
+          },
+          "min_interval": {
+            "after_dose": 1,
+            "value": 4,
+            "unit": "weeks"
+          },
+          "label": "DTP-containing vaccine dose 2"
+        },
+        {
+          "vaccine": "dtp",
+          "dose": 3,
+          "age": {
+            "min": 14,
+            "min_unit": "weeks",
+            "max": 12,
+            "max_unit": "months"
+          },
+          "min_interval": {
+            "after_dose": 2,
+            "value": 4,
+            "unit": "weeks"
+          },
+          "label": "DTP-containing vaccine dose 3"
+        },
+        {
+          "vaccine": "dtp",
+          "dose": 4,
+          "age": {
+            "min": 12,
+            "max": 23,
+            "unit": "months"
+          },
+          "min_interval": {
+            "after_dose": 3,
+            "value": 6,
+            "unit": "months"
+          },
+          "label": "DTP booster (second year)"
+        },
+        {
+          "vaccine": "dtp",
+          "dose": 5,
+          "age": {
+            "min": 4,
+            "max": 7,
+            "unit": "years"
+          },
+          "label": "DTP booster (school age)"
+        },
+        {
+          "vaccine": "td",
+          "dose": 1,
+          "age": {
+            "min": 9,
+            "max": 15,
+            "unit": "years"
+          },
+          "label": "Td booster (adolescence)"
+        },
+        {
+          "vaccine": "opv",
+          "dose": 1,
+          "age": {
+            "min": 6,
+            "max": 10,
+            "unit": "weeks"
+          },
+          "label": "Polio vaccine dose 1"
+        },
+        {
+          "vaccine": "opv",
+          "dose": 2,
+          "age": {
+            "min": 10,
+            "max": 14,
+            "unit": "weeks"
+          },
+          "min_interval": {
+            "after_dose": 1,
+            "value": 4,
+            "unit": "weeks"
+          },
+          "label": "Polio vaccine dose 2"
+        },
+        {
+          "vaccine": "opv",
+          "dose": 3,
+          "age": {
+            "min": 14,
+            "min_unit": "weeks",
+            "max": 12,
+            "max_unit": "months"
+          },
+          "min_interval": {
+            "after_dose": 2,
+            "value": 4,
+            "unit": "weeks"
+          },
+          "label": "Polio vaccine dose 3"
+        },
+        {
+          "vaccine": "ipv",
+          "dose": 1,
+          "age": {
+            "min": 14,
+            "min_unit": "weeks",
+            "max": 12,
+            "max_unit": "months"
+          },
+          "label": "Inactivated polio vaccine",
+          "notes": "WHO recommends at least one IPV dose from 14 weeks."
+        },
+        {
+          "vaccine": "pcv",
+          "dose": 1,
+          "age": {
+            "min": 6,
+            "max": 10,
+            "unit": "weeks"
+          },
+          "label": "PCV dose 1"
+        },
+        {
+          "vaccine": "pcv",
+          "dose": 2,
+          "age": {
+            "min": 10,
+            "max": 26,
+            "unit": "weeks"
+          },
+          "min_interval": {
+            "after_dose": 1,
+            "value": 4,
+            "unit": "weeks"
+          },
+          "label": "PCV dose 2"
+        },
+        {
+          "vaccine": "pcv",
+          "dose": 3,
+          "age": {
+            "min": 14,
+            "min_unit": "weeks",
+            "max": 15,
+            "max_unit": "months"
+          },
+          "label": "PCV dose 3 / booster",
+          "notes": "Programmes use either 3 primary doses or 2 plus a booster."
+        },
+        {
+          "vaccine": "rotavirus",
+          "dose": 1,
+          "age": {
+            "min": 6,
+            "max": 15,
+            "unit": "weeks"
+          },
+          "label": "Rotavirus dose 1"
+        },
+        {
+          "vaccine": "rotavirus",
+          "dose": 2,
+          "age": {
+            "min": 10,
+            "max": 32,
+            "unit": "weeks"
+          },
+          "min_interval": {
+            "after_dose": 1,
+            "value": 4,
+            "unit": "weeks"
+          },
+          "label": "Rotavirus dose 2",
+          "notes": "Some products use 3 doses."
+        },
+        {
+          "vaccine": "mr",
+          "dose": 1,
+          "age": {
+            "min": 9,
+            "max": 12,
+            "unit": "months"
+          },
+          "label": "Measles-containing vaccine dose 1"
+        },
+        {
+          "vaccine": "mr",
+          "dose": 2,
+          "age": {
+            "min": 15,
+            "max": 18,
+            "unit": "months"
+          },
+          "min_interval": {
+            "after_dose": 1,
+            "value": 4,
+            "unit": "weeks"
+          },
+          "label": "Measles-containing vaccine dose 2"
+        },
+        {
+          "vaccine": "hpv",
+          "dose": 1,
+          "age": {
+            "min": 9,
+            "max": 14,
+            "unit": "years"
+          },
+          "label": "HPV",
+          "notes": "One or two doses depending on age and programme."
+        }
+      ]
+    }
+  ]
+}

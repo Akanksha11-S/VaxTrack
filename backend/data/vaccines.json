@@ -1,0 +1,673 @@
+{
+  "version": "2026.1",
+  "vaccines": [
+    {
+      "id": "bcg",
+      "name": "BCG",
+      "category": "Infant & childhood",
+      "aliases": [
+        "bcg",
+        "bacillus calmette guerin",
+        "tb vaccine"
+      ],
+      "diseases": [
+        "Tuberculosis (especially severe forms in young children)"
+      ],
+      "purpose": "Lowers the chance that a young child develops the most serious forms of tuberculosis, such as TB meningitis.",
+      "doses_info": "Usually one dose, given at birth or as early as possible in the first year.",
+      "educational_notes": [
+        "It protects best against severe childhood TB. It is less reliable at preventing TB of the lungs in adults.",
+        "A small scar at the injection site, usually on the upper arm, is normal."
+      ],
+      "technical_description": "BCG vaccine provides protection against severe forms of tuberculosis in infants and young children.",
+      "simple_explanation": "The BCG vaccine helps protect young children from the most serious kinds of tuberculosis (TB).",
+      "sources": [
+        {
+          "name": "India MoHFW - Universal Immunization Programme",
+          "url": "https://www.mohfw.gov.in/sites/default/files/Universal%20Immunization%20Programme.pdf"
+        },
+        {
+          "name": "WHO position papers on vaccines",
+          "url": "https://www.who.int/teams/immunization-vaccines-and-biologicals/policies/position-papers"
+        }
+      ],
+      "satisfies": [],
+      "single_dose": true
+    },
+    {
+      "id": "hepb",
+      "name": "Hepatitis B",
+      "category": "Infant & childhood",
+      "aliases": [
+        "hep b",
+        "hepb",
+        "hepatitis b",
+        "hep-b",
+        "hbv",
+        "hepatitis b vaccine"
+      ],
+      "diseases": [
+        "Hepatitis B (a viral liver infection)"
+      ],
+      "purpose": "Protects against the hepatitis B virus, which can cause long-term liver infection, liver scarring and liver cancer.",
+      "doses_info": "A birth dose within 24 hours is recommended, followed by further doses. In several schedules the later doses are given inside the pentavalent vaccine.",
+      "educational_notes": [
+        "Hepatitis B can pass from mother to baby during birth, which is why the birth dose is timed so early.",
+        "Adults who missed vaccination can usually start a course at any age."
+      ],
+      "technical_description": "Hepatitis B vaccine provides protection against hepatitis B virus infection of the liver.",
+      "simple_explanation": "The hepatitis B vaccine helps protect your liver from the hepatitis B virus.",
+      "sources": [
+        {
+          "name": "WHO position papers on vaccines",
+          "url": "https://www.who.int/teams/immunization-vaccines-and-biologicals/policies/position-papers"
+        },
+        {
+          "name": "India MoHFW - Universal Immunization Programme",
+          "url": "https://www.mohfw.gov.in/sites/default/files/Universal%20Immunization%20Programme.pdf"
+        }
+      ],
+      "satisfies": []
+    },
+    {
+      "id": "opv",
+      "name": "Oral polio vaccine (OPV)",
+      "category": "Infant & childhood",
+      "aliases": [
+        "opv",
+        "bopv",
+        "oral polio",
+        "oral polio vaccine",
+        "polio drops",
+        "polio",
+        "opv booster"
+      ],
+      "diseases": [
+        "Poliomyelitis (polio)"
+      ],
+      "purpose": "Protects children against polio, a virus that can cause permanent paralysis.",
+      "doses_info": "Several doses over the first years of life. Some programmes add a dose at birth (often written OPV-0) and a booster in the second year.",
+      "educational_notes": [
+        "It is given as drops by mouth.",
+        "Polio campaign doses (such as pulse polio days) are extra and may not be counted as routine doses."
+      ],
+      "technical_description": "Oral polio vaccine provides protection against poliovirus, which can cause paralysis.",
+      "simple_explanation": "The oral polio vaccine, given as drops, helps protect children from polio, an infection that can cause paralysis.",
+      "sources": [
+        {
+          "name": "India MoHFW - Universal Immunization Programme",
+          "url": "https://www.mohfw.gov.in/sites/default/files/Universal%20Immunization%20Programme.pdf"
+        },
+        {
+          "name": "WHO position papers on vaccines",
+          "url": "https://www.who.int/teams/immunization-vaccines-and-biologicals/policies/position-papers"
+        }
+      ],
+      "satisfies": []
+    },
+    {
+      "id": "ipv",
+      "name": "Inactivated polio vaccine (IPV / fIPV)",
+      "category": "Infant & childhood",
+      "aliases": [
+        "ipv",
+        "fipv",
+        "inactivated polio",
+        "inactivated polio vaccine",
+        "fractional ipv"
+      ],
+      "diseases": [
+        "Poliomyelitis (polio)"
+      ],
+      "purpose": "An injected polio vaccine that adds to the protection from oral polio drops.",
+      "doses_info": "Schedules differ. India's programme uses a fractional dose (fIPV) given into the skin.",
+      "educational_notes": [
+        "IPV cannot cause vaccine-derived polio, which is one reason it is used alongside or after oral doses."
+      ],
+      "technical_description": "Inactivated polio vaccine provides protection against poliovirus and cannot itself cause polio.",
+      "simple_explanation": "The injected polio vaccine helps protect children from polio and cannot cause the disease.",
+      "sources": [
+        {
+          "name": "WHO position papers on vaccines",
+          "url": "https://www.who.int/teams/immunization-vaccines-and-biologicals/policies/position-papers"
+        },
+        {
+          "name": "India MoHFW - Universal Immunization Programme",
+          "url": "https://www.mohfw.gov.in/sites/default/files/Universal%20Immunization%20Programme.pdf"
+        }
+      ],
+      "satisfies": []
+    },
+    {
+      "id": "dtp",
+      "name": "DTP (DPT / DTwP)",
+      "category": "Infant & childhood",
+      "aliases": [
+        "dtp",
+        "dpt",
+        "dtwp",
+        "dtap",
+        "triple antigen",
+        "dpt booster",
+        "dtp booster"
+      ],
+      "diseases": [
+        "Diphtheria",
+        "Tetanus",
+        "Whooping cough (pertussis)"
+      ],
+      "purpose": "Protects against three serious bacterial infections that can affect breathing, nerves and muscles.",
+      "doses_info": "A primary series in infancy, then boosters in the second year and again around school age. Programmes that use pentavalent give the primary doses in that vaccine.",
+      "educational_notes": [
+        "Protection fades over time, which is why boosters are scheduled.",
+        "A mild fever or sore arm for a day or two is common."
+      ],
+      "technical_description": "DTP vaccine provides protection against diphtheria, tetanus and pertussis.",
+      "simple_explanation": "The DTP vaccine helps protect against three infections: diphtheria, tetanus and whooping cough.",
+      "sources": [
+        {
+          "name": "WHO position papers on vaccines",
+          "url": "https://www.who.int/teams/immunization-vaccines-and-biologicals/policies/position-papers"
+        },
+        {
+          "name": "India MoHFW - Universal Immunization Programme",
+          "url": "https://www.mohfw.gov.in/sites/default/files/Universal%20Immunization%20Programme.pdf"
+        }
+      ],
+      "satisfies": []
+    },
+    {
+      "id": "penta",
+      "name": "Pentavalent (DPT-HepB-Hib)",
+      "category": "Infant & childhood",
+      "aliases": [
+        "penta",
+        "pentavalent",
+        "dpt hepb hib",
+        "dpt-hepb-hib",
+        "penta vaccine",
+        "pentavac",
+        "easyfive"
+      ],
+      "diseases": [
+        "Diphtheria",
+        "Tetanus",
+        "Whooping cough (pertussis)",
+        "Hepatitis B",
+        "Haemophilus influenzae type b (Hib) infections"
+      ],
+      "purpose": "Combines five vaccines in a single injection so infants need fewer pricks.",
+      "doses_info": "Three doses in infancy in India's programme, usually at 6, 10 and 14 weeks.",
+      "educational_notes": [
+        "Hib can cause meningitis and pneumonia in young children."
+      ],
+      "technical_description": "Pentavalent vaccine provides protection against diphtheria, tetanus, pertussis, hepatitis B and Haemophilus influenzae type b.",
+      "simple_explanation": "The pentavalent vaccine helps protect babies against five infections: diphtheria, tetanus, whooping cough, hepatitis B and Hib.",
+      "sources": [
+        {
+          "name": "India MoHFW - Universal Immunization Programme",
+          "url": "https://www.mohfw.gov.in/sites/default/files/Universal%20Immunization%20Programme.pdf"
+        },
+        {
+          "name": "WHO position papers on vaccines",
+          "url": "https://www.who.int/teams/immunization-vaccines-and-biologicals/policies/position-papers"
+        }
+      ],
+      "satisfies": [
+        "dtp"
+      ]
+    },
+    {
+      "id": "rotavirus",
+      "name": "Rotavirus vaccine",
+      "category": "Infant & childhood",
+      "aliases": [
+        "rota",
+        "rotavirus",
+        "rvv",
+        "rotavac",
+        "rotarix",
+        "rotateq",
+        "rota virus"
+      ],
+      "diseases": [
+        "Severe diarrhoea caused by rotavirus"
+      ],
+      "purpose": "Lowers the risk of severe, dehydrating diarrhoea in babies.",
+      "doses_info": "Two or three oral doses in infancy depending on the product and programme. It has an upper age limit, so timing matters.",
+      "educational_notes": [
+        "It is given as drops by mouth.",
+        "It should not be started late in infancy, so check with a provider if doses were delayed."
+      ],
+      "technical_description": "Rotavirus vaccine provides protection against severe gastroenteritis caused by rotavirus in infants.",
+      "simple_explanation": "The rotavirus vaccine helps protect babies from the stomach infection that most often causes severe diarrhoea.",
+      "sources": [
+        {
+          "name": "WHO position papers on vaccines",
+          "url": "https://www.who.int/teams/immunization-vaccines-and-biologicals/policies/position-papers"
+        },
+        {
+          "name": "India MoHFW - Universal Immunization Programme",
+          "url": "https://www.mohfw.gov.in/sites/default/files/Universal%20Immunization%20Programme.pdf"
+        }
+      ],
+      "satisfies": []
+    },
+    {
+      "id": "pcv",
+      "name": "Pneumococcal conjugate (PCV)",
+      "category": "Infant & childhood",
+      "aliases": [
+        "pcv",
+        "pneumococcal",
+        "pneumococcal conjugate",
+        "pneumococcus",
+        "pcv13",
+        "pcv10",
+        "prevenar"
+      ],
+      "diseases": [
+        "Pneumonia, meningitis and bloodstream infection caused by pneumococcus"
+      ],
+      "purpose": "Protects young children against serious infections caused by pneumococcal bacteria.",
+      "doses_info": "Two or three doses in infancy and a booster around 9 to 15 months, depending on the schedule.",
+      "educational_notes": [
+        "Older children and adults at higher risk may use different pneumococcal vaccines."
+      ],
+      "technical_description": "Pneumococcal conjugate vaccine provides protection against invasive disease caused by Streptococcus pneumoniae.",
+      "simple_explanation": "The pneumococcal vaccine helps protect children from pneumonia, meningitis and blood infections caused by pneumococcus bacteria.",
+      "sources": [
+        {
+          "name": "WHO position papers on vaccines",
+          "url": "https://www.who.int/teams/immunization-vaccines-and-biologicals/policies/position-papers"
+        },
+        {
+          "name": "India MoHFW - Universal Immunization Programme",
+          "url": "https://www.mohfw.gov.in/sites/default/files/Universal%20Immunization%20Programme.pdf"
+        }
+      ],
+      "satisfies": []
+    },
+    {
+      "id": "mr",
+      "name": "Measles-Rubella (MR)",
+      "category": "Infant & childhood",
+      "aliases": [
+        "mr",
+        "measles rubella",
+        "measles-rubella",
+        "measles",
+        "rubella",
+        "mcv",
+        "mr vaccine"
+      ],
+      "diseases": [
+        "Measles",
+        "Rubella (German measles)"
+      ],
+      "purpose": "Protects against measles, which can cause pneumonia and brain swelling, and rubella, which can harm an unborn baby.",
+      "doses_info": "Two doses: the first around 9 to 12 months and the second in the second year of life.",
+      "educational_notes": [
+        "Two doses are needed for strong, lasting protection.",
+        "Rubella protection matters for future pregnancies."
+      ],
+      "technical_description": "Measles-rubella vaccine provides protection against measles and rubella.",
+      "simple_explanation": "The MR vaccine helps protect you against two infections: measles and rubella.",
+      "sources": [
+        {
+          "name": "India MoHFW - Universal Immunization Programme",
+          "url": "https://www.mohfw.gov.in/sites/default/files/Universal%20Immunization%20Programme.pdf"
+        },
+        {
+          "name": "WHO position papers on vaccines",
+          "url": "https://www.who.int/teams/immunization-vaccines-and-biologicals/policies/position-papers"
+        }
+      ],
+      "satisfies": []
+    },
+    {
+      "id": "mmr",
+      "name": "MMR",
+      "category": "Infant & childhood",
+      "aliases": [
+        "mmr",
+        "measles mumps rubella",
+        "mmr vaccine",
+        "priorix",
+        "mmr ii"
+      ],
+      "diseases": [
+        "Measles",
+        "Mumps",
+        "Rubella"
+      ],
+      "purpose": "Protects against measles, mumps and rubella in one vaccine.",
+      "doses_info": "Usually two doses in childhood. It can count towards the measles and rubella doses of a schedule.",
+      "educational_notes": [
+        "Private paediatric schedules in India often use MMR in place of MR."
+      ],
+      "technical_description": "The MMR vaccine provides protection against measles, mumps, and rubella.",
+      "simple_explanation": "The MMR vaccine helps protect you against three infections: measles, mumps, and rubella.",
+      "sources": [
+        {
+          "name": "WHO position papers on vaccines",
+          "url": "https://www.who.int/teams/immunization-vaccines-and-biologicals/policies/position-papers"
+        },
+        {
+          "name": "Indian Academy of Pediatrics - immunization schedule",
+          "url": "https://iapindia.org/"
+        }
+      ],
+      "satisfies": [
+        "mr"
+      ]
+    },
+    {
+      "id": "je",
+      "name": "Japanese encephalitis (JE)",
+      "category": "Infant & childhood",
+      "aliases": [
+        "je",
+        "japanese encephalitis",
+        "je vaccine",
+        "jenvac",
+        "imojev"
+      ],
+      "diseases": [
+        "Japanese encephalitis (a brain infection spread by mosquitoes)"
+      ],
+      "purpose": "Protects against a mosquito-borne brain infection found in parts of Asia.",
+      "doses_info": "In India, two doses are given in districts where the disease is common, around 9 to 12 months and 16 to 24 months.",
+      "educational_notes": [
+        "It is offered only in areas where Japanese encephalitis is a known risk, so it may not apply to everyone."
+      ],
+      "technical_description": "Japanese encephalitis vaccine provides protection against Japanese encephalitis virus.",
+      "simple_explanation": "The JE vaccine helps protect against a brain infection that mosquitoes can spread in some regions.",
+      "sources": [
+        {
+          "name": "India MoHFW - Universal Immunization Programme",
+          "url": "https://www.mohfw.gov.in/sites/default/files/Universal%20Immunization%20Programme.pdf"
+        },
+        {
+          "name": "WHO position papers on vaccines",
+          "url": "https://www.who.int/teams/immunization-vaccines-and-biologicals/policies/position-papers"
+        }
+      ],
+      "satisfies": []
+    },
+    {
+      "id": "td",
+      "name": "Td (tetanus-diphtheria)",
+      "category": "Adolescent & adult",
+      "aliases": [
+        "td",
+        "tetanus diphtheria",
+        "td vaccine",
+        "adult td"
+      ],
+      "diseases": [
+        "Tetanus",
+        "Diphtheria"
+      ],
+      "purpose": "A booster that renews protection against tetanus and diphtheria for older children, adolescents and adults.",
+      "doses_info": "India's programme gives Td at 10 and 16 years, and during pregnancy. WHO recommends a booster in adolescence.",
+      "educational_notes": [
+        "Td replaced the older tetanus toxoid (TT) vaccine in India's schedule."
+      ],
+      "technical_description": "Td vaccine provides protection against tetanus and diphtheria.",
+      "simple_explanation": "The Td vaccine is a booster that helps protect you against tetanus and diphtheria.",
+      "sources": [
+        {
+          "name": "India MoHFW - Universal Immunization Programme",
+          "url": "https://www.mohfw.gov.in/sites/default/files/Universal%20Immunization%20Programme.pdf"
+        },
+        {
+          "name": "WHO position papers on vaccines",
+          "url": "https://www.who.int/teams/immunization-vaccines-and-biologicals/policies/position-papers"
+        }
+      ],
+      "satisfies": []
+    },
+    {
+      "id": "tt",
+      "name": "Tetanus toxoid (TT)",
+      "category": "Adolescent & adult",
+      "aliases": [
+        "tt",
+        "tetanus toxoid",
+        "tetanus",
+        "tt injection"
+      ],
+      "diseases": [
+        "Tetanus"
+      ],
+      "purpose": "An older tetanus-only vaccine that appears on many earlier records.",
+      "doses_info": "Replaced by Td in India's national schedule. A TT entry on an older card is still a valid record of a tetanus dose.",
+      "educational_notes": [
+        "VaxTrack stores TT separately from Td. It is shown in your history but not matched to the Td schedule items."
+      ],
+      "technical_description": "Tetanus toxoid vaccine provides protection against tetanus.",
+      "simple_explanation": "The tetanus toxoid vaccine helps protect you from tetanus.",
+      "sources": [
+        {
+          "name": "India MoHFW - Universal Immunization Programme",
+          "url": "https://www.mohfw.gov.in/sites/default/files/Universal%20Immunization%20Programme.pdf"
+        }
+      ],
+      "satisfies": []
+    },
+    {
+      "id": "tdap",
+      "name": "Tdap",
+      "category": "Adolescent & adult",
+      "aliases": [
+        "tdap",
+        "tdap vaccine",
+        "boostrix",
+        "adacel"
+      ],
+      "diseases": [
+        "Tetanus",
+        "Diphtheria",
+        "Whooping cough (pertussis)"
+      ],
+      "purpose": "A booster that adds whooping cough protection to the tetanus and diphtheria booster.",
+      "doses_info": "Often used in adolescence and in each pregnancy, according to national advice.",
+      "educational_notes": [
+        "Your local health authority decides who should receive it and when."
+      ],
+      "technical_description": "Tdap vaccine provides protection against tetanus, diphtheria and acellular pertussis.",
+      "simple_explanation": "The Tdap vaccine helps protect you against three infections: tetanus, diphtheria and whooping cough.",
+      "sources": [
+        {
+          "name": "WHO position papers on vaccines",
+          "url": "https://www.who.int/teams/immunization-vaccines-and-biologicals/policies/position-papers"
+        }
+      ],
+      "satisfies": []
+    },
+    {
+      "id": "hpv",
+      "name": "HPV",
+      "category": "Adolescent & adult",
+      "aliases": [
+        "hpv",
+        "human papillomavirus",
+        "gardasil",
+        "cervarix",
+        "cervavac",
+        "hpv vaccine"
+      ],
+      "diseases": [
+        "Cervical cancer and other cancers caused by human papillomavirus",
+        "Genital warts"
+      ],
+      "purpose": "Protects against the HPV types that cause most cervical cancers.",
+      "doses_info": "WHO recommends one or two doses for girls aged 9 to 14. Older starters may need three doses.",
+      "educational_notes": [
+        "The vaccine works best when given before any exposure to the virus.",
+        "Check your national programme, since eligibility and doses vary by country."
+      ],
+      "technical_description": "HPV vaccine provides protection against infection with the human papillomavirus types that cause cervical cancer.",
+      "simple_explanation": "The HPV vaccine helps protect against the virus that causes most cervical cancers.",
+      "sources": [
+        {
+          "name": "WHO position papers on vaccines",
+          "url": "https://www.who.int/teams/immunization-vaccines-and-biologicals/policies/position-papers"
+        }
+      ],
+      "satisfies": []
+    },
+    {
+      "id": "typhoid",
+      "name": "Typhoid conjugate (TCV)",
+      "category": "Other vaccines",
+      "aliases": [
+        "typhoid",
+        "tcv",
+        "typhoid conjugate",
+        "typbar",
+        "typbar-tcv",
+        "vi polysaccharide"
+      ],
+      "diseases": [
+        "Typhoid fever"
+      ],
+      "purpose": "Protects against typhoid fever, which spreads through contaminated food and water.",
+      "doses_info": "A single dose from about 6 months of age in many private schedules. Not part of every national programme.",
+      "educational_notes": [
+        "Older typhoid vaccines needed repeat doses every few years, so ask which type you received."
+      ],
+      "technical_description": "Typhoid conjugate vaccine provides protection against Salmonella Typhi, the bacterium that causes typhoid fever.",
+      "simple_explanation": "The typhoid vaccine helps protect you from typhoid fever.",
+      "sources": [
+        {
+          "name": "WHO position papers on vaccines",
+          "url": "https://www.who.int/teams/immunization-vaccines-and-biologicals/policies/position-papers"
+        }
+      ],
+      "satisfies": [],
+      "single_dose": true
+    },
+    {
+      "id": "hepa",
+      "name": "Hepatitis A",
+      "category": "Other vaccines",
+      "aliases": [
+        "hep a",
+        "hepa",
+        "hepatitis a",
+        "hep-a",
+        "havrix"
+      ],
+      "diseases": [
+        "Hepatitis A (a viral liver infection spread through food and water)"
+      ],
+      "purpose": "Protects against hepatitis A, which causes liver inflammation and can make people ill for weeks.",
+      "doses_info": "Usually one or two doses depending on the product.",
+      "educational_notes": [
+        "It is common in paediatric private schedules and for travellers to some regions."
+      ],
+      "technical_description": "Hepatitis A vaccine provides protection against hepatitis A virus.",
+      "simple_explanation": "The hepatitis A vaccine helps protect your liver from the hepatitis A virus.",
+      "sources": [
+        {
+          "name": "WHO position papers on vaccines",
+          "url": "https://www.who.int/teams/immunization-vaccines-and-biologicals/policies/position-papers"
+        }
+      ],
+      "satisfies": []
+    },
+    {
+      "id": "varicella",
+      "name": "Varicella (chickenpox)",
+      "category": "Other vaccines",
+      "aliases": [
+        "varicella",
+        "chickenpox",
+        "chicken pox",
+        "varivax",
+        "varilrix"
+      ],
+      "diseases": [
+        "Chickenpox"
+      ],
+      "purpose": "Lowers the chance of chickenpox and its complications.",
+      "doses_info": "Two doses in many schedules, a few months to a few years apart.",
+      "educational_notes": [
+        "Not part of India's national programme; it is commonly given in private practice."
+      ],
+      "technical_description": "Varicella vaccine provides protection against varicella-zoster virus infection.",
+      "simple_explanation": "The varicella vaccine helps protect you from chickenpox.",
+      "sources": [
+        {
+          "name": "WHO position papers on vaccines",
+          "url": "https://www.who.int/teams/immunization-vaccines-and-biologicals/policies/position-papers"
+        }
+      ],
+      "satisfies": []
+    },
+    {
+      "id": "influenza",
+      "name": "Influenza (flu)",
+      "category": "Other vaccines",
+      "aliases": [
+        "influenza",
+        "flu",
+        "flu shot",
+        "influenza vaccine",
+        "fluarix",
+        "vaxigrip"
+      ],
+      "diseases": [
+        "Seasonal influenza"
+      ],
+      "purpose": "Lowers the risk of seasonal flu and serious flu complications.",
+      "doses_info": "Offered every year because flu viruses change. Children getting it for the first time may need two doses.",
+      "educational_notes": [
+        "Each season's vaccine is updated to match circulating strains."
+      ],
+      "technical_description": "Seasonal influenza vaccine provides protection against circulating influenza viruses.",
+      "simple_explanation": "The flu vaccine helps protect you from seasonal influenza.",
+      "sources": [
+        {
+          "name": "WHO position papers on vaccines",
+          "url": "https://www.who.int/teams/immunization-vaccines-and-biologicals/policies/position-papers"
+        }
+      ],
+      "satisfies": []
+    },
+    {
+      "id": "covid19",
+      "name": "COVID-19",
+      "category": "Other vaccines",
+      "aliases": [
+        "covid",
+        "covid19",
+        "covid-19",
+        "covishield",
+        "covaxin",
+        "corbevax",
+        "sars cov 2",
+        "corona"
+      ],
+      "diseases": [
+        "COVID-19"
+      ],
+      "purpose": "Lowers the risk of severe COVID-19 illness.",
+      "doses_info": "Recommendations have changed several times. Cards often list the brand name, dose number and a batch number.",
+      "educational_notes": [
+        "Brand names such as Covishield and Covaxin are recognised and filed under COVID-19."
+      ],
+      "technical_description": "COVID-19 vaccines provide protection against severe disease caused by SARS-CoV-2.",
+      "simple_explanation": "COVID-19 vaccines help protect you from becoming seriously ill with COVID-19.",
+      "sources": [
+        {
+          "name": "WHO position papers on vaccines",
+          "url": "https://www.who.int/teams/immunization-vaccines-and-biologicals/policies/position-papers"
+        }
+      ],
+      "satisfies": []
+    }
+  ]
+}
